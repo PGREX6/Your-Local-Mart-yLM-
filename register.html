@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container register">
+
+  <!-- LOGO ON TOP -->
+  <div class="logo">
+    Market<span class="accent">Hub</span>
+  </div>
+
+  <!-- TEXT & FORM BELOW -->
+  <div class="register-content">
+    <h2>Create Your Account</h2>
+
+    <input id="name" placeholder="Full Name">
+    <input id="email" placeholder="Email Address">
+    <input id="password" type="password" placeholder="Password">
+
+    <select id="role">
+      <option value="user">Buyer (Buy products)</option>
+      <option value="vendor">Vendor (Sell products)</option>
+    </select>
+
+    <button onclick="register()">Create Account</button>
+
+    <p>Already have an account? <a href="index.html">Login</a></p>
+
+    <p style="font-size:13px; color:#6b7280; margin-top:-6px;">
+  Vendors will complete store setup next
+</p>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
